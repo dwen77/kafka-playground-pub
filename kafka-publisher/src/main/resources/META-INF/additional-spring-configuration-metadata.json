@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "kafka.schema.registry.url",
+      "type": "java.lang.String",
+      "description": "Description for kafka.schema.registry.url."
+  }
+] }

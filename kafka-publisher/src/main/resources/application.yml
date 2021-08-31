@@ -1,0 +1,19 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      properties:
+        max.block.ms: 30000
+        request.timeout.ms: 30000
+        delivery.timeout.ms: 30000
+        security.protocol: PLAINTEXT
+
+
+server:
+  port: 9888
+
+
+kafka:
+  schema:
+    registry:
+      url: http://localhost:8081

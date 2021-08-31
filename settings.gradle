@@ -1,0 +1,6 @@
+rootProject.name = 'kafka-playground'
+include 'kafka-publisher'
+include 'kafka-specific-consumer'
+include 'kafka-generic-consumer'
+include 'avro'
+

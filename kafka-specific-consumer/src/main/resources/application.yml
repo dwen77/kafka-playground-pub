@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      properties:
+        security:
+          protocol: PLAINTEXT
+
+kafka:
+  schema:
+    registry:
+      url: http://localhost:8081

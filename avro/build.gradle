@@ -1,0 +1,22 @@
+apply plugin: 'com.commercehub.gradle.plugin.avro'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+    maven { url "https://packages.confluent.io/maven/"}
+}
+
+idea {
+    module {
+        outputDir file('build/classes/main')
+        testOutputDir file('build/classes/test')
+    }
+}
+
+configurations {
+    api
+}
+
+dependencies {
+    compile "org.apache.avro:avro:1.9.2"
+}

@@ -1,0 +1,14 @@
+@namespace("com.example.test.events")
+protocol MyTestEvent {
+	record TestRecord {
+		union{null, string} field1 = null;
+		union{null, string} field2 = null;
+		union{null, string} field3 = null;
+		union{null, string} field4 = null;
+		union{null, string} field5 = null;
+		union{null, string} field6 = null;
+		union{null, string} field7 = null;
+		union{null, string} field8 = null;
+		union{null, string} field9 = null;
+	}
+}
